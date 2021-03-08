@@ -1,0 +1,18 @@
+version: '3.3'
+
+services:  
+
+  db:
+    image: postgres:9.4
+    restart: always
+    environment: 
+        - POSTGRES_USER=
+        - POSTGRES_PASSWORD=
+        - POSTGRES_DB=
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    # optional port
+    ports: ["5432:5432"]
+
+volumes:
+  db_data:

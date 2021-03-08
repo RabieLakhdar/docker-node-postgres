@@ -1,0 +1,16 @@
+{
+    "env": {
+        "DB_USERNAME": null,
+        "DB_PASSWORD": null,
+        "DB_NAME": null,
+        "DB_PORT": null,
+        "DB_HOST": null,
+        "PORT": null,
+        "JWT_KEY": null,
+        "MAILER_ACCOUNT": null,
+        "MAILER_PASSWORD": null,
+        "MAILER_HOST": null,
+        "MAILER_PORT": null,
+        "MAILER_SECURE": false
+    }
+}
